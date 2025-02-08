@@ -66,10 +66,8 @@ function playGame() {
     }
     if(humanScore > computerScore) {
         console.log("You Win!");
-    } else if(computerScore > humanScore) {
-        console.log("You lose!");
     } else {
-        console.log("Tie!");
+        console.log("You lose!");
     }
 }
 playGame();
