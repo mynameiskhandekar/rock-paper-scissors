@@ -59,4 +59,15 @@ function playGame() {
             console.log("Invalid");
         }
     }
+    for(let i=0; i<5; i++) {
+        let input = getHumanChoice();
+        let compinp = getComputerChoice();
+        playRound(input, compinp);
+    }
+    if(humanScore > computerScore) {
+        console.log("You Win!");
+    } else {
+        console.log("You lose!");
+    }
 }
+playGame();
