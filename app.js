@@ -9,4 +9,18 @@ function getComputerChoice() {
         return "scissors"
     }
 }
-console.log(getComputerChoice());
+
+//Creating function to get the human choice
+function getHumanChoice() {
+    let choice = prompt("Enter r for rock, p for paper and s for scissors: ")
+    if(choice === 'r') {
+        return "rock";
+    } else if(choice === 'p') {
+        return "paper";
+    } else if(choice === 's') {
+        return "scissors";
+    } else {
+        console.log("Enter valid choice: ");
+    }
+}
+console.log(getHumanChoice());
