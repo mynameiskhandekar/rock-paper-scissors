@@ -23,4 +23,7 @@ function getHumanChoice() {
         console.log("Enter valid choice: ");
     }
 }
-console.log(getHumanChoice());
+
+//Scores
+let humanScore = 0;
+let computerScore = 0;
